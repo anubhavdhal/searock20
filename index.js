@@ -1,38 +1,59 @@
-$(document).ready(function(){
-      $('.history').slick({
-            lazyLoad: 'ondemand',
-            slidesToShow: 1,
-            slidesToScroll: 1
-      });
-});
 const bands = [
       {
-      class:"timeline-inverted",
-      color:"night",
-      daticon:"1-3",
-      title:"Quark",
-      date:"1-3<sup>rd</sup> Feb",
-      text:"Uniwars<br>Planetarium"
+      no: "1",
+      name: "Corner Cafe Chronicles"
       },
       {
-      class:"timeline-inverted",
-      color:"sky",
-      daticon:"6/7",
-      title:"Eta Aquarids Shower",
-      date:"6/7<sup>th</sup> March",
-      text:"Better than average, 60 meteors/hr."
+      no: "2",
+      name: "Five Legged Funk Machine"
+      },
+      {
+      no: "3",
+      name: "Highway 69"
+      },
+      {
+      no: "4",
+      name: "Ryan Viktor Project"
+      },
+      {
+      no: "5",
+      name: "Within Ceres"
+      },
+      {
+      no: "6",
+      name: "Zygnema"
+      },
+      {
+      no: "7",
+      name: "The Family Cheese"
+      },
+      {
+      no: "8",
+      name: "The Iyer Project"
+      },
+      {
+      no: "9",
+      name: "Knightshades"
+      },
+      {
+      no: "10",
+      name: "Inner Sanctum"
       }];
 
 
-function list(band){
-      return `
-      <li class="${body.class}">
-         TEXT
-       </li>
+function list(band){return `
+      <div><img src="./win/${band.no}.jpg"/><br>
+      <h1>${band.name}</h1></div>
       `
-  
-  }
+    }
+document.getElementById('history').innerHTML = `${bands.map(list).join('')}`
 
-document.getElementById("history").innerHTML = `
-    ${bands.map(list).join('')}
-`
+
+$(document).ready(function(){
+      $('.history').slick({
+            arrows: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplaySpeed: 2000,
+      });
+});
