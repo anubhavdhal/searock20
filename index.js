@@ -51,6 +51,7 @@ document.getElementById('history').innerHTML = `${bands.map(list).join('')}`
 
 $(document).ready(function(){
       $('.history').slick({
+            infinite:true,
             arrows: true,
             slidesToShow: 1,
             slidesToScroll: 1,
