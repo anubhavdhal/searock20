@@ -695,3 +695,9 @@ animation-duration:2s
 	top:0
 }
 }
+@media all and (max-width: 1080px){
+.container--lg{
+width:100%;
+max-width:var(--container-width-lg)
+}
+}
