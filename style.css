@@ -534,9 +534,20 @@ text-shadow:0 1px 3px rgba(0,0,0,.3)
 	}
 }
 }
-.cd-section:nth-child(1){
-background-image:url(img/cd-background-1.jpg)
+#myVideo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	filter: grayscale(100%);
+	z-index: -1;
 }
+/* .cd-section:nth-child(1){
+background-image:url(img/cd-background-1.jpg)
+} */
 .cd-section:nth-child(2){
 background-color:#cd3333;
 text-overflow:ellipsis;
