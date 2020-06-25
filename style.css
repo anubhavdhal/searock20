@@ -14,7 +14,8 @@ box-sizing:border-box
 }
 body{
 background-color:#fff;
-background-color:var(--color-bg,#fff)
+background-color:var(--color-bg,#fff);
+overflow: hidden;
 }
 header,main,section{
 display:block
