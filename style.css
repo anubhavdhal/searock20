@@ -708,6 +708,9 @@ animation-duration:2s
 	body{
 	max-width=100%;
 	}
+	main{
+	max-width=100%;
+	}
 	.cd-main-header{
 		max-width=100%;
 	}
