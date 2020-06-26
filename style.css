@@ -15,7 +15,7 @@ box-sizing:border-box
 body{
 background-color:#fff;
 background-color:var(--color-bg,#fff);
-overflow: hidden;
+overflow-x: hidden;
 }
 header,main,section{
 display:block
