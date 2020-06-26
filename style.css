@@ -695,7 +695,7 @@ animation-duration:2s
 	top:0
 }
 }
-@media all and (max-width: 650px){
+@media all and (max-width: 320px){
 	.cd-main-header{
 		width=100%;
 	}
