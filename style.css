@@ -699,13 +699,7 @@ animation-duration:2s
   and (device-width: 360px) 
   and (device-height: 640px) 
   and (-webkit-device-pixel-ratio: 2) {
-		.cd-main-header{
-		width=30%;
-	}
-
-}
-@media all and (max-width: 320px){
-	body{
+		body{
 	max-width=100%;
 	}
 	main{
@@ -714,7 +708,7 @@ animation-duration:2s
 	.cd-main-header{
 		max-width=100%;
 	}
-}
+	}
 #myVideo {
 	position: fixed;
 	top: 0;
@@ -725,5 +719,6 @@ animation-duration:2s
 	max-height: 100%;
 	filter: grayscale(100%);
 	z-index: -1;
+}
 }
 
