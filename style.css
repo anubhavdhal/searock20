@@ -695,6 +695,15 @@ animation-duration:2s
 	top:0
 }
 }
+@media all 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+		.cd-main-header{
+		width=30%;
+	}
+
+}
 @media all and (max-width: 320px){
 	.cd-main-header{
 		width=100%;
