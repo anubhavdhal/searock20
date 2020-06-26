@@ -709,6 +709,9 @@ animation-duration:2s
 		max-width=100%;
 	}
 	}
+html{
+	max-width=100%;
+	}
 #myVideo {
 	position: fixed;
 	top: 0;
