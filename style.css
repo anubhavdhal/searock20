@@ -696,3 +696,18 @@ animation-duration:2s
 	top:0
 }
 }
+@media only screen and (max-width:330px) {
+	body {
+		max-width: 100%;
+		min-width: 99%;
+	}
+	 .font-mobile{
+		 font-size: 2.5vh;
+		 table{
+		max-width: 100%;
+	}
+		 table{
+		 max-width: 100%;
+		 }
+}
+}
