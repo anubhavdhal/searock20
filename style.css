@@ -695,10 +695,7 @@ animation-duration:2s
 	top:0
 }
 }
-@media all 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width:450px) {
 	 .font-mobile{
 		 font-size:2.0vh;
 }
