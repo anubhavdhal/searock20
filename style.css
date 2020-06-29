@@ -579,7 +579,6 @@ background-image:url(img/cd-background-4.jpg)
 .cd-section:nth-child(8)
 {background-color:#000000;
 }
-
 #fades{
 -webkit-animation:fadein 1s;
 -moz-animation:fadein 1s;
