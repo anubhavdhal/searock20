@@ -14,7 +14,8 @@ box-sizing:border-box
 }
 body{
 background-color:#fff;
-background-color:var(--color-bg,#fff)
+background-color:var(--color-bg,#fff);
+overflow-x: hidden;
 }
 header,main,section{
 display:block
@@ -574,6 +575,9 @@ background-image:url(img/cd-background-3.jpg)
 }
 .cd-section:nth-child(7){
 background-image:url(img/cd-background-4.jpg)
+}
+.cd-section:nth-child(8)
+{background-color:#000000;
 }
 #fades{
 -webkit-animation:fadein 1s;
