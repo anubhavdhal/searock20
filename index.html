@@ -19,6 +19,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>SeaRock 2020 | Waves 2020</title>
@@ -79,7 +80,7 @@
                     <p style="text-align:center" id="translateu"><a href="http://www.bitswaves.org/">Waves 2019</a></p>
                 </div>
             </section>
-            <section class="cd-section " id="about">
+            <section class="cd-section " id="about" data-aos="fade-right" data-aos-easing="ease-out-cubic data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                 <div class="container container--lg headline">
                     <div class="text-component">
                         <p align="justify" style="color:#FFFFFF;max-width: 97.5%">Everyone wants a chance. Everyone
@@ -105,7 +106,7 @@
                     </div>
                 </div>
             </section>
-            <section class="cd-section cd-section--bg-fixed" id="stats" style="height: 100vh">
+            <section class="cd-section cd-section--bg-fixed" id="stats" style="height: 100vh" data-aos="fade-left" data-aos-easing="ease-out-cubic data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                 <div class="container container--sm headline">
                     <div class="text-component text--center">
                         <h2>
@@ -125,7 +126,7 @@
                     </div>
                 </div>
             </section>
-            <section class="cd-section" id="events">
+            <section class="cd-section" id="events"data-aos="fade-right" data-aos-easing="ease-out-cubic data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                 <div class="container container--lg headline">
                     <div class="text-component" style="text-align:center">
                         <h2><strong>Events</strong><br></h2>
@@ -190,7 +191,7 @@
                                 </tr>
                             </table>
             </section>
-            <section class="cd-section cd-section--bg-fixed" id="reg" style="height: 100vh">
+            <section class="cd-section cd-section--bg-fixed" id="reg" style="height: 100vh" data-aos="fade-left" data-aos-easing="ease-out-cubic data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                 <div class="container container--lg headline" align="center">
                     <strong>
                         <h2 id="srwhite">Register for Sea<span id="srred">Rock</span></h2>
@@ -209,7 +210,7 @@
                     </div>
                 </div>
             </section>
-            <section class="cd-section" id="contact">
+            <section class="cd-section" id="contact" data-aos="fade-right" data-aos-easing="ease-out-cubic data-aos-anchor-placement="center-bottom" data-aos-duration="3000">
                 <div class="container container--md headline">
                     <div class="text-component" style="font-size: 150%">
                         <h1 style="color: #2E2E2E"> Contact Us</h1>
@@ -233,12 +234,18 @@
                     </div>
                 </div>
             </section>
-<!--             <section class="cd-section cd-section--bg-fixed"> 
-            <div id="history" class="history"></div> </section> -->
+          <section class="cd-section cd-section--bg-fixed" style="display: block;" data-aos="fade-left" data-aos-easing="ease-out-cubic data-aos-anchor-placement="center-bottom" data-aos-duration="3000"> 
+            <div id="history" class="history"></div> 
+             
+            </section>
     
             <script src="./index.js" async></script>
         </section>
     </main>
-</body>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+                </body>
+         
 </html>
